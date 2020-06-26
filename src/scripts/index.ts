@@ -1,17 +1,14 @@
-import NumberButtons from './buttons/NumberButtons';
+import NumberOperatorButtons from './buttons/NumberOperatorButtons';
 import ResetButtons from './buttons/ResetButtons';
-
-import { Sum, Sub, Mult, Div, Percent } from  './buttons/Operations';
+import EqualButton from './buttons/EqualButton';
+import Percent from  './buttons/PercentButton';
 
 class Calculator {
     constructor() {
-        new NumberButtons();
         new ResetButtons();
-        new Sum();
-        new Sub();
-        new Mult();
-        new Div();
+        new NumberOperatorButtons();
         new Percent();
+        new EqualButton();
     }
 }
 

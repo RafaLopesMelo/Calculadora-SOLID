@@ -11,18 +11,18 @@ export default class ResetButtons {
         this.ACButton = document.querySelector('#ac') as HTMLButtonElement;
 
         this.bind();
-    }
+    };
 
     bind() {
         this.CButton.addEventListener('click', () => this.cancelEntry());
         this.ACButton.addEventListener('click', () => this.allClear());
-    }
+    };
 
     cancelEntry() {
         this.display.value = this.display.value.slice(0, -1);
-    }
+    };
 
     allClear() {
         this.display.value = '';
-    }
+    };
 }
