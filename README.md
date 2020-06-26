@@ -15,7 +15,7 @@ A aplicação teve como objetivo aprimorar meus conhecimentos na POO utilizando 
 - CSS3
 - WebPack
 
-### 💿 Começando
+## 💿 Começando
 
 Para rodar o projeto, basta clonar o repositório em sua máquina e instalar as dependências:
 
@@ -35,7 +35,7 @@ e rodar o seguinte comando para gerar o bundle:
 
 Após isto, basta rodar o index.html no navegador e tudo estará funcionando.
 
-### 👀 Visitar projeto:
+## 👀 Visitar projeto:
 
 Caso prefira ver o projeto na Web, ele está hospedado no GitHub Pages e pode ser visitado [clicando aqui](https://rafalopesmelo.github.io/Calculadora-SOLID/src/).
 
